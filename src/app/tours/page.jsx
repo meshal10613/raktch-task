@@ -1,33 +1,25 @@
 "use client"
 
-import Link from 'next/link'
+import Link from 'next/link';
 import React, { useEffect, useState } from 'react'
-import { SlArrowRight } from "react-icons/sl";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { IoTimeOutline } from "react-icons/io5";
 
-export default function TopDestination() {
-    const [tours, setTour] = useState([]);
+export default function ToursPage() {
+    const [tours, setTours] = useState([]);
 
     useEffect(() => {
         fetch("/tours.json") // ✅ fetch from public folder
         .then((res) => res.json())
-        .then((data) => setTour(data));
+        .then((data) => setTours(data));
     }, []);
-
-    // Sort by price ascending (lowest first)
-    const sortedTours = tours.sort((a, b) => a.price - b.price);
-
-    // Take the first 3
-    const cheapestThree = sortedTours.slice(0, 3);
-    console.log(cheapestThree)
     return (
-        <div>
-            <h2 className='text-[#F411CF] font-bold text-2xl mb-3'>TOP DESTINATION</h2>
-            <h1 className='text-5xl font-bold mb-5'>Explore top destination</h1>
-            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10'>
+        <div className='px-[1%] md:px-[5%] my-5 2xl:px-[7%]'>
+            <h2 className='text-[#F411CF] font-bold text-2xl mb-3'>Tours</h2>
+            <p className='text-[#A8A8A8] text-xl'>Explore experiences, spas, tours and more</p>
+            <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5 my-10'>
                 {
-                    cheapestThree.map((tour) => (
+                    tours.map((tour) => (
                         <div key={tour.id} className="card bg-base-100 w-96 mx-auto shadow-sm">
                             <figure>
                                 <img
@@ -54,7 +46,6 @@ export default function TopDestination() {
                     ))
                 }
             </div>
-            <Link href="/tours" className='flex items-center justify-center gap-1 text-[#872BFF] bg-[#F9F4FF] text-base btn w-[110px] rounded-3xl border-none mx-auto my-10 py-1'>See All <SlArrowRight /></Link>
         </div>
     )
 }

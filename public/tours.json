@@ -1,0 +1,232 @@
+[
+    {
+        "id": 1,
+        "tour_name": "Sundarbans River Cruise",
+        "location": "Khulna, Bangladesh",
+        "price": 350,
+        "duration": "3 Days",
+        "keyword": ["wildlife", "mangrove", "cruise"],
+        "tour_type": ["Cruise Ship", "Bus Tour"],
+        "overview": "The Sundarbans River Cruise takes you deep into the world’s largest mangrove forest. Guests will enjoy breathtaking views of winding rivers, dense greenery, and unique wildlife including deer, crocodiles, and possibly the Royal Bengal Tiger. The trip provides a mix of relaxation onboard and guided excursions to key spots in the forest. It’s a perfect balance of adventure and leisure. This tour is ideal for nature lovers, bird watchers, and wildlife photographers.",
+        "whats_include": [
+            "Accommodation on luxury cruise with all facilities",
+            "Three meals per day with fresh local ingredients",
+            "Professional wildlife guide for forest exploration",
+            "Entry fees to Sundarbans reserved forest",
+            "Evening cultural program on the cruise deck",
+            "Transfers from Khulna city to cruise terminal"
+        ],
+        "additional_information": "October to March is the best time for the cruise. Visitors should carry mosquito repellent, light cotton clothes, and comfortable shoes. Limited mobile network coverage is available in the deep forest. Electricity is available on the cruise but power saving is advised. Special dietary requests should be mentioned during booking. The forest entry pass requires carrying a valid ID card.",
+        "image": [
+            "https://i.ibb.co.com/BVGTNFfK/sundarban.jpg",
+            "https://i.ibb.co.com/Kcvq1MjD/sundarban2.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "tour_name": "Saint Martin Ferry Cruise",
+        "location": "Cox’s Bazar – Saint Martin, Bangladesh",
+        "price": 220,
+        "duration": "2 Days",
+        "keyword": ["island", "ferry", "beach"],
+        "tour_type": ["Cruise Ship", "Bus Tour"],
+        "image": [
+            "https://i.ibb.co.com/b5wG6669/saint1.jpg",
+            "https://i.ibb.co.com/67CNfKtH/saint2.jpg"
+        ],
+        "overview": "Sail across the Bay of Bengal to the stunning Saint Martin’s Island, the only coral island of Bangladesh. The ferry cruise offers breathtaking sea views, gentle breezes, and a peaceful journey away from the city’s chaos. On arrival, you’ll be greeted by turquoise waters, vibrant coral reefs, and white sandy beaches. Visitors can swim, snorkel, or relax by the shore while enjoying fresh coconut water. The island also offers delicious seafood and a chance to interact with local fishing communities. Evenings bring spectacular sunsets followed by stargazing sessions that make the experience unforgettable.",
+        "whats_include": [
+            "Round-trip ferry tickets with reserved seating",
+            "Cabin accommodation for one night on Saint Martin’s Island",
+            "Three meals featuring local seafood and traditional cuisine",
+            "Guided island exploration tour including fishing villages",
+            "Evening beachside BBQ with live music",
+            "Complimentary welcome drinks upon arrival"
+        ],
+        "additional_information": "Mobile network and internet connectivity are limited on Saint Martin’s Island, so it’s best to inform friends and family beforehand. Carry enough cash, as card and digital payments are rarely accepted. Electricity is available but restricted to certain hours, so bring a power bank for essentials. The best season for travel is between November and March when seas are calm and skies are clear. Don’t forget to pack light beachwear, sunscreen, and snorkeling gear if you want to explore coral reefs. Travelers should also respect the island’s fragile ecosystem by avoiding plastic waste and preserving the natural beauty of the surroundings."
+    },
+    {
+        "id": 3,
+        "tour_name": "Maldives Luxury Cruise & Resort Stay",
+        "location": "Maldives",
+        "price": 1200,
+        "duration": "5 Days",
+        "keyword": ["island", "luxury", "cruise"],
+        "tour_type": ["Cruise Ship", "Bus Tour"],
+        "image": [
+            "https://i.ibb.co.com/LD5fdd91/Maldives.jpg",
+            "https://i.ibb.co.com/zTW1VmVg/Maldivese.jpg"
+        ],
+        "overview": "This luxury Maldives package combines a scenic cruise across turquoise waters with an indulgent resort stay. Guests enjoy snorkeling in coral reefs, swimming with tropical fish, and lounging on white sandy beaches. Evenings are filled with sunset cruises and fresh seafood dining. Water villas provide an unmatched overnight experience. It’s the perfect blend of romance, relaxation, and adventure for couples and honeymooners.",
+        "whats_include": [
+        "Luxury cruise with private cabin",
+        "4 nights in an overwater villa resort",
+        "Daily breakfast, lunch, and dinner",
+        "Snorkeling gear and guided reef tours",
+        "Airport transfers to resort and cruise terminal",
+        "Evening entertainment with local music and dance"
+        ],
+        "additional_information": "Best for honeymooners and luxury travelers. Travel insurance is highly recommended. Visitors should carry lightweight clothing, swimsuits, and reef-safe sunscreen. Some islands may have limited WiFi connectivity. Alcohol is available only at resorts and cruise ships. The package includes government green tax and service charges."
+    },
+    {
+        "id": 4,
+        "tour_name": "Singapore City Rail & Cruise Tour",
+        "location": "Singapore",
+        "price": 950,
+        "duration": "4 Days",
+        "keyword": ["city", "cruise", "rail"],
+        "tour_type": ["Rail Tour", "Cruise Ship"],
+        "image": [
+        "https://i.ibb.co.com/rKm5RHjr/Singapore.jpg",
+        "https://i.ibb.co.com/TDdLJV39/shutterstock-1116483092.jpg"
+        ],
+        "overview": "This combined Singapore package offers a city rail adventure and a luxurious harbor cruise. Guests travel via MRT to explore iconic attractions like Marina Bay Sands, Gardens by the Bay, and Sentosa Island. In the evenings, a luxury cruise provides a panoramic view of Singapore’s skyline. The trip blends modern city experiences with peaceful moments at sea. A great choice for families and first-time visitors.",
+        "whats_include": [
+        "Hotel accommodation in central Singapore",
+        "Rail passes for unlimited MRT rides",
+        "Harbor cruise with dinner buffet",
+        "Guided city sightseeing tour",
+        "Sentosa Island entry passes",
+        "Airport pickup and drop-off"
+        ],
+        "additional_information": "Travelers should carry international debit/credit cards as Singapore is largely cashless. Lightweight clothes and comfortable walking shoes are recommended. Public transport is safe and efficient. Vegetarian and halal food options are available. Singapore’s climate is humid year-round, so stay hydrated."
+    },
+    {
+        "id": 5,
+        "tour_name": "Bali Cultural Cruise & Bus Tour",
+        "location": "Bali, Indonesia",
+        "price": 880,
+        "duration": "5 Days",
+        "keyword": ["culture", "island", "temple"],
+        "tour_type": ["Cruise Ship", "Bus Tour"],
+        "image": [
+            "https://i.ibb.co.com/4ZZjVCNg/soori-bali-home-offers-2.jpg",
+            "https://i.ibb.co.com/JwT11NzC/pura-ulun-bratan-temple-bali-1280.webp"
+        ],
+        "overview": "This Bali tour combines temple visits, scenic rice terraces, and an island cruise. Guests experience Balinese culture through dance shows and traditional cuisine. A luxury bus takes travelers through Ubud, Kuta, and Tanah Lot. A day cruise around nearby islands includes snorkeling and beach BBQs. Perfect for both cultural explorers and leisure seekers. The package balances sightseeing and relaxation.",
+        "whats_include": [
+        "Luxury bus transfers around Bali",
+        "Temple entry fees and cultural shows",
+        "Island cruise with snorkeling equipment",
+        "4 nights in boutique resorts",
+        "Daily meals with local and international cuisine",
+        "Airport transfers included"
+        ],
+        "additional_information": "Carry light cotton clothes and sarongs for temple visits. Avoid single-use plastics as Bali has strict regulations. Balinese massage and spa treatments are optional add-ons. Internet connectivity is available in most resorts. Best travel time is between April and October."
+    },
+    {
+        "id": 6,
+        "tour_name": "London Rail & Thames Cruise",
+        "location": "London, United Kingdom",
+        "price": 1350,
+        "duration": "6 Days",
+        "keyword": ["rail", "cruise", "city"],
+        "tour_type": ["Rail Tour", "Cruise Ship", "Bus Tour"],
+        "image": [
+            "https://i.ibb.co.com/b54WxWQG/luxury-cruise-ship-sailing-river-thames-dusk-tower-bridge-london-skyline-background-illuminated-prov.webp",
+            "https://i.ibb.co.com/B5BP61fQ/gis-tour-listing.jpg"
+        ],
+        "overview": "Explore London’s landmarks with a combination of rail journeys, bus tours, and a Thames River cruise. The package includes visits to the Tower of London, Buckingham Palace, and Big Ben. Guests ride scenic trains to Windsor and Oxford. Evenings are spent on a luxurious dinner cruise. This package provides a complete London experience blending history, culture, and modern lifestyle.",
+        "whats_include": [
+        "5-night hotel stay in central London",
+        "Hop-on hop-off bus tour tickets",
+        "Thames River dinner cruise",
+        "Day trips by rail to Oxford & Windsor",
+        "Entry tickets to top attractions",
+        "Airport transfer included"
+        ],
+        "additional_information": "Visitors should book in advance as London attractions sell out quickly. Oyster cards are provided for easy rail and tube access. Weather can be unpredictable, so carry umbrellas. UK uses type G power plugs, so adaptors are needed. Entry tickets cover priority access at most landmarks."
+    },
+    {
+        "id": 7,
+        "tour_name": "Rome Ancient Wonders Tour",
+        "location": "Rome, Italy",
+        "price": 1450,
+        "duration": "5 Days 4 Nights",
+        "keyword": ["history", "culture", "rail"],
+        "tour_type": ["Rail Tour", "Bus Tour"],
+        "image": [
+            "https://i.ibb.co.com/Y4vvK8dS/Colosseum-Rome-Italy.webp",
+            "https://i.ibb.co.com/xqgJ8n2X/IMG-1832.jpg"
+        ],
+        "overview": "This Roman holiday features visits to the Colosseum, Vatican City, and Trevi Fountain. Travelers enjoy a rail journey to Florence and a bus tour of Rome’s iconic streets. Guided walks highlight the city’s ancient history. Authentic Italian meals are served throughout. The tour combines the charm of old Rome with the beauty of Tuscany’s countryside.",
+        "whats_include": [
+        "Rail ticket to Florence round trip",
+        "Hop-on hop-off bus pass",
+        "4 nights in a 4-star hotel",
+        "Guided tours of Colosseum & Vatican",
+        "Daily Italian breakfast and dinners",
+        "Airport pickup included"
+        ],
+        "additional_information": "Comfortable walking shoes are essential as Rome involves lots of walking. Visitors should pre-book Vatican Museum tickets for faster entry. Italy uses type F/L plugs. Be prepared for Mediterranean warm weather. Local tour guides provide historical storytelling during visits."
+    },
+    {
+        "id": 8,
+        "tour_name": "New York City Skyline Cruise & Bus Tour",
+        "location": "New York, USA",
+        "price": 1650,
+        "duration": "6 Days 5 Nights",
+        "keyword": ["city", "cruise", "bus"],
+        "tour_type": ["Cruise Ship", "Bus Tour"],
+        "image": [
+            "https://i.ibb.co.com/gZ9zSYFv/645a704919d07-616-New-Bus-04242023-05084-800x450.jpg",
+            "https://i.ibb.co.com/7dkCKGnG/ncldawnnyc.jpg"
+        ],
+        "overview": "Discover New York with a mix of bus tours and evening skyline cruises. Guests explore Times Square, Central Park, and the Statue of Liberty. Broadway tickets are included for a cultural touch. The Hudson River cruise offers stunning night views of the city skyline. This package is ideal for first-time NYC visitors and families.",
+        "whats_include": [
+        "5-night hotel in Manhattan",
+        "Hop-on hop-off bus tour tickets",
+        "Hudson River evening cruise",
+        "Broadway show ticket included",
+        "Guided tour to Statue of Liberty",
+        "Daily breakfast and airport transfers"
+        ],
+        "additional_information": "Best travel time is spring and autumn. New York can be crowded, so early starts are recommended. Metro passes are provided for easy subway access. Visitors should carry credit/debit cards as many places are cashless. Weather varies so layered clothing is best."
+    },
+    {
+        "id": 9,
+        "tour_name": "Thailand Beaches & Island Cruise",
+        "location": "Thailand",
+        "price": 1250,
+        "duration": "5 Days 4 Nights",
+        "keyword": ["island", "beach", "cruise"],
+        "tour_type": ["Cruise Ship", "Bus Tour"],
+        "image": [
+            "https://i.ibb.co.com/vxynt5Pk/images.jpg",
+            "https://i.ibb.co.com/ZRrQjJ6r/thai-traditional-wooden-longtail-boat-and-blue-sky-in-Maya-bay-Thailand-1024x673.jpg"
+        ],
+        "overview": "This Thailand tour covers Phuket, Krabi, and Phi Phi Islands. A scenic island-hopping cruise lets visitors snorkel, swim, and sunbathe on hidden beaches. A luxury bus tour explores Bangkok’s cultural landmarks including the Grand Palace and floating markets. Delicious Thai cuisine is served throughout. The trip blends beach relaxation with cultural exploration.",
+        "whats_include": [
+        "Island-hopping cruise with snorkeling gear",
+        "Luxury bus transfers in Bangkok & Phuket",
+        "Hotel stays in Phuket and Bangkok",
+        "Daily breakfast and one Thai dinner show",
+        "Airport transfers included",
+        "Cultural guide for city tours"
+        ],
+        "additional_information": "Thailand’s weather is hot year-round, so carry sunscreen and light clothes. Currency used is Thai Baht. Vegetarian and halal options are widely available. Nightlife and shopping are big attractions. Local SIM cards can be purchased easily at the airport."
+    },
+    {
+        "id": 10,
+        "tour_name": "China Silk Road Rail & Cruise Tour",
+        "location": "China",
+        "price": 1750,
+        "duration": "7 Days 6 Nights",
+        "keyword": ["rail", "culture", "cruise"],
+        "tour_type": ["Rail Tour", "Cruise Ship", "Bus Tour"],
+        "image": [
+            "https://i.ibb.co.com/cctPQpjc/e10b4274f2c25ee2d854367bba167045.jpg",
+            "https://i.ibb.co.com/jPgwwCZb/china-silk-road-trip-dunhuang-desert-camel-riding.webp"
+        ],
+        "overview": "Follow the legendary Silk Road with a mix of train journeys and river cruises. The trip covers Beijing, Xi’an, and Shanghai. Guests enjoy a Yangtze River cruise with stunning views of the Three Gorges. High-speed rail journeys offer modern comfort while exploring ancient cities. The combination of bus tours, rail rides, and cruise ships ensures a well-rounded experience of China.",
+        "whats_include": [
+        "High-speed rail tickets between cities",
+        "Yangtze River luxury cruise cabin",
+        "City sightseeing bus tours",
+        "6 nights in premium hotels",
+        "Daily breakfast and selected dinners",
+        "English-speaking local guide"
+        ],
+        "additional_information": "China requires a tourist visa for most travelers. Mobile payment apps like Alipay and WeChat Pay are widely used. Carry a translation app for local communication. Weather varies across regions so pack accordingly. Tours include entry to the Great Wall, Terracotta Warriors, and the Bund in Shanghai."
+    }
+]
