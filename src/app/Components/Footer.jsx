@@ -19,9 +19,15 @@ export default function Footer() {
                 <div>
                     <h1 className="footer-title">Social</h1>
                     <div className="flex items-center gap-3">
-                        <FaFacebook size={25} className="cursor-pointer" />
-                        <FaGithub size={25} className="cursor-pointer" />
-                        <FaLinkedin size={25} className="cursor-pointer" />
+                        <a href="https://www.facebook.com/meshal.67" target="_blank" rel="noopener noreferrer">
+                            <FaFacebook size={25} className="cursor-pointer" />
+                        </a>
+                        <a href="https://github.com/meshal10613" target="_blank" rel="noopener noreferrer">
+                            <FaGithub size={25} className="cursor-pointer" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/10613-meshal" target="_blank" rel="noopener noreferrer">
+                            <FaLinkedin size={25} className="cursor-pointer" />
+                        </a>
                     </div>
                 </div>
                 <form className="space-y-3">
