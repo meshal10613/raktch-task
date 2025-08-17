@@ -29,7 +29,7 @@ const features = [
 
 export default function KeyFeatures() {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-10'>
+        <div className='flex flex-col lg:flex-row items-center justify-around gap-10 lg:gap-0 my-52'>
             <div>
                 <h2 className='text-[#F411CF] font-bold text-2xl mb-3'>KEY FEATURES</h2>
                 <h1 className='text-5xl font-bold mb-5'>We offer best services</h1>
@@ -50,7 +50,7 @@ export default function KeyFeatures() {
             </div>
             <div className='relative'>
                 <Image src={key1} alt='one' className='w-fit' />
-                <Image src={key2} alt='two' className='absolute top-60 left-20 md:top-52 md:left-32 w-fit' />
+                <Image src={key2} alt='two' className='absolute top-60 left-20 md:top-52 md:left-32 lg:left-18 xl:left-32 w-fit' />
             </div>
         </div>
     )

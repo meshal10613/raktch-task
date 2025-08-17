@@ -20,7 +20,6 @@ export default function TopDestination() {
 
     // Take the first 3
     const cheapestThree = sortedTours.slice(0, 3);
-    console.log(cheapestThree)
     return (
         <div>
             <h2 className='text-[#F411CF] font-bold text-2xl mb-3'>TOP DESTINATION</h2>

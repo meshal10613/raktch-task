@@ -27,7 +27,7 @@ export default function Service() {
     ];
 
     return (
-        <div>
+        <div className=''>
             <h2 className='text-[#F411CF] font-bold text-2xl mb-3'>SERVICES</h2>
             <h1 className='text-5xl font-bold mb-5'>Why book using Travelo</h1>
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 my-10 md:my-20'>

@@ -31,9 +31,9 @@ const cards = [
 
 export default function TravelPoint() {
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-10 my-10 md:my-20'>
+        <div className='flex flex-col lg:flex-row items-center justify-between gap-10 my-10 md:my-20'>
             <div className=''>
-                <Image src={girl} alt='travel' className='relative top-0 w-fit'/>
+                <Image src={girl} alt='travel' className='relative left-0 top-0 w-fit'/>
             </div>
             <div>
                 <h2 className='text-[#F411CF] font-bold text-2xl mb-3'>TRAVEL POINT</h2>

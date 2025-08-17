@@ -1,4 +1,8 @@
 import React from 'react'
+import { MapPinCheck } from "lucide-react";
+import { MdLandscape } from 'react-icons/md';
+import About from '@/app/image/about.png'
+import Image from 'next/image';
 
 export const metadata = {
     title: "Travelo | About Us",
@@ -10,8 +14,40 @@ export const metadata = {
 
 export default function AboutPage() {
     return (
-        <div>
-            asfgsadf
+        <div className='px-[1%] md:px-[5%] my-5 2xl:px-[7%]'>
+            <h2 className='text-[#F411CF] font-bold text-2xl mb-3'>About us</h2>
+            <p className='text-[#A8A8A8] text-xl'>Let’s explore what we do!</p>
+            <div className='flex flex-col items-center justify-center text-center gap-5 mb-10'>
+                <h1 className='text-5xl font-bold'>Provide the best travel <br /> experience for you</h1>
+                <p>We understand that every journey has unique needs. Therefore, we offer customized travel <br /> packages designed according to your preferences and budget.</p>
+            </div>
+            <div className="flex flex-col md:flex-row gap-6 justify-center items-center p-6">
+                
+                {/* Our Vision Card */}
+                <div className="p-10 rounded-3xl shadow-md flex flex-col items-start">
+                    <MapPinCheck className="w-10 h-10 text-[#872BFF] mb-4" />
+                    <h3 className="text-xl font-bold mb-2">Our Vision</h3>
+                    <p className="text-gray-600">
+                    Our vision is to become a leading travel agency company <br /> that provides high-quality services and inspiration for our customer.
+                    </p>
+                </div>
+
+                {/* Our Mission Card */}
+                <div className="p-10 rounded-3xl shadow-md flex flex-col items-start">
+                    <MdLandscape className="w-10 h-10 text-[#872BFF] mb-4" />
+                    <h3 className="text-xl font-bold mb-2">Our Mission</h3>
+                    <p className="text-gray-600">
+                    Our vision is to become a leading travel agency company <br />  that provides high-quality services and inspiration for our customer.
+                    </p>
+                </div>
+            </div>
+            <div className='flex flex-col lg:flex-row items-center justify-center gap-20 my-20'>
+                <Image src={About} alt="family" className='rounded-3xl' />
+                <div className='space-y-3'>
+                    <h2 className='text-5xl font-bold'>Enjoy exclusive personalized service and an unforgettable experience</h2>
+                    <p>We are a team of professionals with a deep passion for travel. <br /> We believe that travel is a window to adventure, cultural discovery and personal growth.</p>
+                </div>
+            </div>
         </div>
     )
 }

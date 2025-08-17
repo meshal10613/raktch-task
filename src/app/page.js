@@ -8,14 +8,12 @@ import KeyFeatures from "./Components/KeyFeatures";
 export default function Home() {
   return (
     <>
+      <Banner/>
       <div className="px-[1%] md:px-[5%] my-5 2xl:px-[7%]">
-        <Banner/>
         <Partners/>
         <Service/>
         <TopDestination/>
-      </div>
-      <TravelPoint/>
-      <div className="px-[1%] md:px-[5%] my-5 2xl:px-[7%]">
+        <TravelPoint/>
         <KeyFeatures/>
       </div>
     </>
