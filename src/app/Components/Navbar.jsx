@@ -13,7 +13,7 @@ export default function Navbar() {
     ];
 
     return (
-    <div className="navbar">
+    <div className="navbar px-[1%] md:px-[5%] my-5 2xl:px-[7%]">
         <div className="navbar-start">
             <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

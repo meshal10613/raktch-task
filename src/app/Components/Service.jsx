@@ -1,7 +1,8 @@
 import React from 'react'
-import Img1 from '@/app/image/service/g1.png'
+import Img1 from '@/app/image/service/H1.png'
 import Img2 from '@/app/image/service/g2.png'
 import Img3 from '@/app/image/service/g3.png'
+import Image from 'next/image';
 
 export default function Service() {
     const cards = [
@@ -32,12 +33,9 @@ export default function Service() {
             <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 my-10 md:my-20'>
                 {
                     cards.map((card) => (
-                        <div key={card.id} className="card bg-base-100 w-96 mx-auto shadow-2xl rounded-2xl py-15">
+                        <div key={card.id} className="card bg-base-100 w-88 mx-auto shadow-2xl rounded-2xl py-15">
                             <figure className="px-10 pt-10">
-                                <img
-                                src={card.image}
-                                alt={card.title}
-                                className="rounded-xl mx-auto" />
+                                <Image src={card.image} alt={card.title}/>
                             </figure>
                             <div className="card-body items-center text-center">
                                 <h2 className="card-title text-3xl font-semibold mb-5">{card.title}</h2>
