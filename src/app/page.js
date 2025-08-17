@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Banner from "./Components/Banner";
 import Partners from "./Components/Partners";
 import Service from "./Components/Service";
