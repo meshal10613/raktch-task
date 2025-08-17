@@ -1,9 +1,12 @@
 import Image from "next/image";
+import Banner from "./Components/Banner";
+import Partners from "./Components/Partners";
 
 export default function Home() {
   return (
-    <div>
-      <h2>hello world</h2>
-    </div>
+    <>
+      <Banner/>
+      <Partners/>
+    </>
   );
 }
