@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Banner() {
     return (
-        <div className='flex flex-col md:flex-row items-center gap-10 md:gap-0 justify-around my-10 md:my-20'>
+        <div className='flex flex-col md:flex-row items-center gap-10 md:gap-0 justify-between my-10 md:my-20'>
             <div className='space-y-10 my-10'>
                 <h2 className='text-7xl font-bold'>From <br /> Southeast Asia <br /> <span className='text-[#F411CF]'>to the World.</span></h2>
                 <p className='text-[#A8A8A8] text-xl'>Stay updated with travel tips, recommendations, and latest promos.</p>
