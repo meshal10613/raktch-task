@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 import Image from "next/image";
-import BackTop from '@/app/image/top.jpg'
+import BackTop from '@/app/image/top.png'
 
 export default function ScrollTop() {
     const [isVisible, setIsVisible] = useState(false);
