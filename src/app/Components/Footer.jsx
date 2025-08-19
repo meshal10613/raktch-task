@@ -8,7 +8,7 @@ import { FaGithub } from "react-icons/fa";
 export default function Footer() {
     return (
         <div className="flex flex-col px-5">
-            <div className="flex items-center justify-between">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-5">
                 <div className="space-y-3">
                     <Link href="/" className="flex gap-2">
                         <img src="/logo/Vector.png" alt="" />

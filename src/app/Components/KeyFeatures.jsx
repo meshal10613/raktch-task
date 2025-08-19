@@ -29,7 +29,7 @@ const features = [
 
 export default function KeyFeatures() {
     return (
-        <div className='flex flex-col lg:flex-row items-center justify-around gap-10 lg:gap-0 my-52'>
+        <div className='flex flex-col lg:flex-row items-center justify-around gap-10 lg:gap-0 my-60'>
             <div>
                 <h2 className='text-[#F411CF] font-bold text-2xl mb-3'>KEY FEATURES</h2>
                 <h1 className='text-5xl font-bold mb-5'>We offer best services</h1>
